@@ -1,0 +1,21 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "cmd+y", 
+    "command": "redo", 
+    "when": "editorTextFocus" 
+  },
+  {
+    "key": "ctrl+f", 
+    "command": "format.standard",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+shift+]", 
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "cmd+shift+[", 
+    "command": "workbench.action.previousEditor"
+  }
+]
